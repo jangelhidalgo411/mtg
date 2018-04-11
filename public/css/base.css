@@ -1,0 +1,59 @@
+div[class^="col-"] {
+    float: left;
+}
+
+p {
+    text-align: justify;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.title {
+    text-align: center;
+}
+
+th {
+    text-transform: uppercase;
+    vertical-align: middle !important;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.no-explain {
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+
+/*card colapse*/
+.panel-heading h2{
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none !important;
+}
+
+.panel-body .col-md-7 {
+    float: none;
+    margin: auto;
+    display: flex;
+}
+
+.panel-body .col-md-7 .col-md-9 {
+    display: flex;
+    align-items: center;
+}
+
+h2.no-padmar {
+    padding-bottom: 0;
+    margin-top: 0;
+}
